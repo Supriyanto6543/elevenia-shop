@@ -1,6 +1,6 @@
 # Elevenia Shop
 
-Simple app for consumer xml api from elevania and sync product with local database
+Simple app for consume xml api from elevania and sync product with local database
 
 ### Getting Started
 
@@ -15,7 +15,7 @@ flutter pub get from terminal
 
 ### Cubit State Management
 
-This project using Cubit for state management.
+This project using Cubit for state management.\
 Why cubit? because easy for understand and have clear documentation from official website, power full and fast.
 
 
