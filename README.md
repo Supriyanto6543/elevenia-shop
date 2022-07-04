@@ -67,7 +67,7 @@ I am setting for width is >= 600 is tablet or desktop, < 600 is phone.
 
 #### Smartphone Mode
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/33416633/177065010-848219ca-5968-4336-aa5d-e293ca8314c8.png" style="width: 45%;">
+    <img src="https://user-images.githubusercontent.com/33416633/177065361-e29fa25a-3459-4969-a8ef-31c9f48ba970.png" style="width: 45%;">
     <img src="https://user-images.githubusercontent.com/33416633/177065171-044bef2e-ac5d-4b1a-ad6c-133fca8d02f4.png" style="width: 45%;">
 </p>
 
