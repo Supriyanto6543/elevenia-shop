@@ -21,7 +21,7 @@ Why cubit? because easy for understand and have clear documentation from officia
 
 ### Library
 
-For this prject i am using these library:
+For this project i am using these library:
 
 ```
 http: ^0.13.4
@@ -34,13 +34,29 @@ sqflite: ^2.0.1
 flutter_no_internet_widget: ^0.0.4+10
 mocktail: ^0.3.0
 bloc_test: ^9.0.3
+flutter_lints: ^1.0.0
 ```
 
+### Flutter and Android Studio Version
+
+```
+- Flutter
+Flutter 2.10.4 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision c860cba910 (3 months ago) • 2022-03-25 00:23:12 -0500
+Engine • revision 57d3bac3dd
+Tools • Dart 2.16.2 • DevTools 2.9.2
+
+- Android Studio
+Android Studio Chipmunk | 2021.2.1 Patch 1
+Build #AI-212.5712.43.2112.8609683, built on May 18, 2022
+Runtime version: 11.0.12+0-b1504.28-7817840 x86_64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+```
 
 ### Responsive Design
 
-I am using mediaquery from create responsive design when user open this app from smartphone or tablet.
-Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide
+I am using mediaquery from create responsive design when user open this app from smartphone or tablet.\
+Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide\
 I am setting for width is >= 600 is tablet or desktop, < 600 is phone.
 
 
