@@ -1,16 +1,55 @@
-# jubelio
+# Elevenia Shop
 
-A new Flutter project.
+Simple app for consumer xml api from elevania and sync product with local database
 
-## Getting Started
+### Getting Started
 
-This project is a starting point for a Flutter application.
+Clone this project to your machine by run this command:
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone (url of this repo)
+open with your IDE (Android Studio or Visual Studio Code)
+flutter pub get from terminal
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Cubit State Management
+
+This project using Cubit for state management.
+Why cubit? because easy for understand and have clear documentation from official website, power full and fast.
+
+
+### Library
+
+For this prject i am using these library:
+
+```
+http: ^0.13.4
+flutter_bloc: ^8.0.1
+xml2json: ^5.3.0
+google_fonts: ^3.0.1
+pull_to_refresh: ^2.0.0
+flutter_html: ^2.2.1
+sqflite: ^2.0.1
+flutter_no_internet_widget: ^0.0.4+10
+mocktail: ^0.3.0
+bloc_test: ^9.0.3
+```
+
+
+### Responsive Design
+
+I am using mediaquery from create responsive design when user open this app from smartphone or tablet.
+Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide
+I am setting for width is >= 600 is tablet or desktop, < 600 is phone.
+
+
+### Unit Testing, Widget Testing and Integration Testing
+
+Yeah, I added unit testing, widget testing and integration testing for this project. 
+
+
+
+
+
+
