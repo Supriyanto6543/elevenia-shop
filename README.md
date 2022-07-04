@@ -55,11 +55,12 @@ VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
 
 ### Responsive Design
 
-I am using mediaquery from create responsive design when user open this app from smartphone or tablet.\
-Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide\
+I am using mediaquery from create responsive design when user open this app from smartphone or tablet.<br>
+Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide <br>
 I am setting for width is >= 600 is tablet or desktop, < 600 is phone.
 
-<img width="913" alt="Screen Shot 2022-07-04 at 07 52 07" src="https://user-images.githubusercontent.com/33416633/177064590-24a557a7-e411-430e-add1-108b5a7983a6.png">
+<img src="https://user-images.githubusercontent.com/33416633/177064590-24a557a7-e411-430e-add1-108b5a7983a6.png" style="width: 65%;">
+<img src="https://user-images.githubusercontent.com/33416633/177064747-d3dbe57b-b18f-416f-85f9-cd94bf313b4c.png" style="width: 35%;">
 
 
 ### Unit Testing, Widget Testing and Integration Testing
