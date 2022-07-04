@@ -1,16 +1,19 @@
 # jubelio
 
-A new Flutter project.
+Simple app for consumer xml api from elevania and sync product with local database
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Clone this project to your machine by run this command:
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone (url of this repo)
+open with your IDE (Android Studio or Visual Studio Code)
+flutter pub get from terminal
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+
