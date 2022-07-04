@@ -1,6 +1,6 @@
 # Elevenia Shop
 
-Simple app for consumer xml api from elevania and sync product with local database
+Simple app for consume xml api from elevania and sync product with local database
 
 ### Getting Started
 
@@ -15,7 +15,7 @@ flutter pub get from terminal
 
 ### Cubit State Management
 
-This project using Cubit for state management.
+This project using Cubit for state management.\
 Why cubit? because easy for understand and have clear documentation from official website, power full and fast.
 
 
@@ -39,8 +39,8 @@ bloc_test: ^9.0.3
 
 ### Responsive Design
 
-I am using mediaquery from create responsive design when user open this app from smartphone or tablet.
-Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide
+I am using mediaquery from create responsive design when user open this app from smartphone or tablet.\
+Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide\
 I am setting for width is >= 600 is tablet or desktop, < 600 is phone.
 
 
