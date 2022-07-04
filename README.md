@@ -59,8 +59,10 @@ I am using mediaquery from create responsive design when user open this app from
 Study case for responsive layout reference to this link: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide <br>
 I am setting for width is >= 600 is tablet or desktop, < 600 is phone.
 
-<img src="https://user-images.githubusercontent.com/33416633/177064590-24a557a7-e411-430e-add1-108b5a7983a6.png" style="width: 60%;">
-<img src="https://user-images.githubusercontent.com/33416633/177064747-d3dbe57b-b18f-416f-85f9-cd94bf313b4c.png" style="width: 30%;">
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33416633/177064590-24a557a7-e411-430e-add1-108b5a7983a6.png" style="width: 60%;">
+    <img src="https://user-images.githubusercontent.com/33416633/177064747-d3dbe57b-b18f-416f-85f9-cd94bf313b4c.png" style="width: 30%;">
+</p>
 
 
 ### Unit Testing, Widget Testing and Integration Testing
