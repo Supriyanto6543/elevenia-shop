@@ -23,7 +23,7 @@ class ListPage extends StatelessWidget {
       online: Scaffold(
         appBar: AppBar(
           toolbarHeight: !tablet(context) ? kToolbarHeight : CustomSize.f60,
-          title: Text('BELAJAR XML - Mode Online', style:
+          title: Text('Elevenia Shop - Mode Online', style:
             CustomFont.fontTitleCard(CustomColor.white, !tablet(context) ? CustomSize.f20 : CustomSize.f27)),
           actions: [
             Row(
@@ -112,7 +112,7 @@ class ListPage extends StatelessWidget {
       offline: Scaffold(
         appBar: AppBar(
           toolbarHeight: !tablet(context) ? kToolbarHeight : CustomSize.f60,
-          title: Text('BELAJAR XML - Offline Mode', style:
+          title: Text('Elevenia Shop - Offline Mode', style:
             CustomFont.fontTitleCard(CustomColor.white, !tablet(context) ? CustomSize.f20 : CustomSize.f27)),
           backgroundColor: CustomColor.grey,
           actions: [
