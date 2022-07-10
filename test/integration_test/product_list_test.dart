@@ -1,8 +1,6 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jubelio/common/db_helper.dart';
 import 'package:jubelio/controller/product_list/product_list_cubit.dart';
-import 'package:mocktail/mocktail.dart';
 
 void main(){
 

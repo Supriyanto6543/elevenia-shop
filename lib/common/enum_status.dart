@@ -1,0 +1,1 @@
+enum EnumStatusAction { haveText, search, searched, close, error, notFound, empty}

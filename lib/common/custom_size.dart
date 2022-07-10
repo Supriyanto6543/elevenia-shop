@@ -4,6 +4,11 @@
 
 class CustomSize{
 
+  static double f0 = 0.0;
+  static double f5 = 5.0;
+  static double f6 = 6.0;
+  static double f7 = 7.0;
+  static double f8 = 8.0;
   static double f15 = 15.0;
   static double f16 = 16.0;
   static double f17 = 17.0;

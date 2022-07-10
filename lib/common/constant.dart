@@ -6,6 +6,22 @@ class Constant{
   static const String contentType = "application/xml";
 
   /*
+   * Field for widget
+   */
+  static const String widgetProductName = "Nama Product:";
+  static const String widgetHarga = "Harga:";
+  static const String widgetNoId = "No Id:";
+  static const String widgetQty = "Qty:";
+  static const String widgetSearchOffline = "Hidupkan Internet untuk Mencari Produk";
+  static const String widgetToDetail = "Hidupkan Internet terlebih dahulu";
+  static const String widgetTitleOnline = "Elevenia Shop - Online Mode";
+  static const String widgetTitleOffline = "Elevenia Shop - Offline Mode";
+  static const String widgetCartNoItem = "Item mu akan muncul disini";
+  static const String widgetCartTitleOffline = "Cart Page - Offline Mode";
+  static const String widgetCartTitleOnline = "Cart Page - Online Mode";
+  static const String widgetHintSearch = "Search...";
+
+  /*
    * Field for database sqflite product list
    */
   static const String tblList = "tbl_list";
@@ -27,6 +43,7 @@ class Constant{
   static const String idCart = "id";
   static const String titleCart = "prdnm";
   static const String prdnoCart = "prdno";
+  static const String prdImageCart = "prdimage";
   static const String htmlCart = "htmldetail";
   static const String priceCart = "selprc";
 

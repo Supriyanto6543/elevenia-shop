@@ -44,6 +44,8 @@ dependencies:
   flutter_no_internet_widget: ^0.0.4+10
   mocktail: ^0.3.0
   bloc_test: ^9.0.3
+  sqflite_common_ffi: ^2.1.1+1
+  intl: ^0.17.0
 
   #this library just for test in unit test
   #to check app connected to internet or not
@@ -75,6 +77,8 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -19,7 +19,8 @@ class CartCubit extends Cubit<CartState> {
         prdNm: e['prdnm'],
         prdNo: e['prdno'].toString(),
         htmlDetail: e['htmldetail'],
-        selPrc: e['selprc'])).toList();
+        selPrc: e['selprc'],
+        prdImage01: e['prdimage'])).toList();
     emit(CartLoaded(list: list));
     refresher.refreshCompleted();
   }

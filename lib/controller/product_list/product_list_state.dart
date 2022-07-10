@@ -12,11 +12,6 @@ class ProductListLoaded extends ProductListState {
 
   ProductListLoaded.pList({required List<ModelProductList> list}) :
         this._(list: list);
-
-  ProductListLoaded.pListOffline({
-    required List<ModelProductList> list,
-    required int index}) :
-        this._(list: list, index: index);
 }
 
 class ProductListError extends ProductListState {

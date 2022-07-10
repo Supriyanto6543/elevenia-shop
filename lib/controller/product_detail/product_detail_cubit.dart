@@ -17,7 +17,6 @@ class ProductDetailCubit extends Cubit<ProductDetailState> {
 
   static final database = DbHelper();
   static final scaffold = GlobalKey<ScaffoldState>();
-  //var http = https.Client();
 
   getProductDetail(String prdNo) async{
     try{
@@ -34,6 +33,21 @@ class ProductDetailCubit extends Cubit<ProductDetailState> {
     }
   }
 
+  getProductDetailOffline(String prdNo)async{
+    try{
+      var data = await database.getOfflineProductById(prdNo);
+      ModelProductDetail detail = ModelProductDetail(
+          prdNm: data[0]['prdnm'],
+          prdNo: data[0]['prdno'].toString(),
+          htmlDetail: data[0]['htmldetail'],
+          selPrc: data[0]['selprc'],
+          prdImage01: data[0]['prdimage']);
+      emit(ProductDetailLoaded.getDetail(modelProductDetail: detail, statusCart: 0));
+    }catch(e){
+      emit(ProductDetailError(message: "Internal server error"));
+    }
+  }
+
   addToCart(ModelProductDetail list)async{
     var myState = state as ProductDetailLoaded;
     int i = await database.tableIsEmpty(list);
@@ -43,14 +57,12 @@ class ProductDetailCubit extends Cubit<ProductDetailState> {
           modelProductDetail: myState.modelProductDetail,
           statusCart: 0));
       displaySnackbar(scaffold.currentContext!, "Produk berhasil dihapus");
-      log("for test: Produk berhasil dihapus");
     }else{
       await database.insertDataCart(list);
       emit(ProductDetailLoaded.getDetail(
           modelProductDetail: myState.modelProductDetail,
           statusCart: 1));
       displaySnackbar(scaffold.currentContext!, "Produk berhasil ditambahkan");
-      log("for test: Produk berhasil ditambahkan");
     }
   }
 }
