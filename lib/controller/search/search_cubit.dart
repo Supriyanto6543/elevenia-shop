@@ -49,8 +49,14 @@ class SearchCubit extends Cubit<SearchState> {
       var convert = xml2json.toParker();
       List data = json.decode(convert)["Products"]["product"];
       List<ModelProductList> list = data.map((e) => ModelProductList.fromJson(e)).toList();
+      List<ModelProductList> ss = list;
+      ss.sort((a, b){
+        int? i = int.tryParse(a.selPrc!);
+        int? s = int.tryParse(b.selPrc!);
+        return i!.compareTo(s!);
+      });
       emit(SearchLoaded.getSearch(
-          list: list,
+          list: ss,
           statusAction: EnumStatusAction.searched,
           setPrice: setPrice,
           name: nameProduct));

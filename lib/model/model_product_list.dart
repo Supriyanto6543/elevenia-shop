@@ -40,4 +40,9 @@ class ModelProductList{
     return data;
   }
 
+  @override
+  toString(){
+    return ('$prdNm - $selPrc');
+  }
+
 }
